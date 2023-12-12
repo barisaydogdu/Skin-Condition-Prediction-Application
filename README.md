@@ -1,33 +1,44 @@
-# Skin-Condition-Prediction-Application
-This project is a real-time skin condition prediction application developed using the MediaPipe face mesh detection model and a Decision Tree classifier. The artificial intelligence model classifies skin conditions into "No Skin," "Acne," and "Dry Skin" based on specific facial features.
+# Skin Condition Prediction Application
 
-How to Use
-Requirements:
+This real-time skin condition prediction application utilizes the power of artificial intelligence to analyze facial features and predict skin conditions accurately. The project integrates the MediaPipe face mesh detection model and a Decision Tree classifier for efficient classification.
 
-Python
-OpenCV
-MediaPipe
-Scikit-learn
-Joblib
-NumPy
-Download the Project:
+## Features
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-Install Dependencies:
+- **Real-time Prediction:** Experience skin condition prediction in real-time using your computer's camera.
+- **Multiclass Classification:** The model classifies skin conditions into "No Skin," "Acne," and "Dry Skin."
+- **Easy-to-Use:** Simply run the application, and it will provide skin condition predictions instantly.
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application:
+## Requirements
 
-bash
-Copy code
-python main.py
-Skin Condition Prediction:
-Show your face using your camera, and the application will predict your skin condition based on facial analysis results.
+Make sure you have the following dependencies installed:
 
-How to Contribute
-If you want to contribute to this project, please fork and propose your changes (pull request). Feel free to ask questions and provide feedback in the Issues tab.
+- Python
+- OpenCV
+- MediaPipe
+- Scikit-learn
+- Joblib
+- NumPy
+
+## How to Use
+
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/barisaydogdu/Skin-Condition-Prediction-Application.git
+    cd Skin-Condition-Prediction-Application
+    ```
+
+2. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Application:**
+    ```bash
+    python main.py
+    ```
+
+## Contribution
+
+Feel free to contribute to the project by forking and creating pull requests. If you have any questions or feedback, use the Issues tab.
+
+**Happy predicting!**
